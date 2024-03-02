@@ -1,0 +1,97 @@
+#form {
+    width: 75%;
+}
+#width {
+    width: 75%;
+}
+
+#form2 {
+    width: 75%;
+}
+
+#form3 {
+    width: 75%;
+}
+
+#rd {
+    width: 40%;
+}
+#postcard {
+    height: 230px;
+}
+
+#post1 {
+    margin-right: 24px;
+    width: 750px;
+    /* outline: 2px solid gray; */
+}
+#post123 {
+    outline: 2px solid gray;
+    height: 585px;
+}
+#post11 {
+    outline: 2px solid red;
+}
+#post2 {
+    margin-left: 24px;
+    width: 620px;
+    outline: 2px solid gray;
+}
+#post {
+    width: 1450px;
+    height: 1055px;
+}
+
+#clear {
+    outline: 2px solid gray;
+}
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Style the dropdown button */
+  .dropbtn {
+    /* background-color: rgb(255, 255, 255); */
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    /* color: rgb(0, 76, 255); */
+  }
+
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  /* Style the dropdown items */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  /* Show the dropdown content on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  .radio-input:checked {
+    border-color: blue;  /* Change the border color to blue when the radio button is checked */
+  }
