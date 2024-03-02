@@ -16,7 +16,7 @@ function adress() {
 
   const [posts, setPosts] = useState([]);
   
-  const userData = useSelector(state=>  state.auth.userData);
+  const userData = useSelector(state =>  state.auth.userData);
   const  { register, handleSubmit, formState: { errors }  } = useForm();
 
   const [isDialogOpen, setIsDialogOpen] = useState(false);
